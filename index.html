@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Javascript Programs</title>
+    <!-- favicon -->
+    <link rel="icon" href="favicon (1).ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./Styles/Program.css">
+
+</head>
+
+<body>
+    <i class="fa fa-bars icons display2"></i>
+    <main id="main-doc">
+        <nav id="navbar" class="display zee">
+            <i class="fa fa-times icons display2"></i>
+            <header>Javascript Programs</header>
+            <a class="nav-link" href="#Introduction">Introduction</a>
+            <a class="nav-link" href="#Program_1">Program 1</a>
+            <a class="nav-link" href="#Program_2">Program 2</a>
+            <a class="nav-link" href="#Program_3">Program 3</a>
+            <a class="nav-link" href="#Program_4">Program 4</a>
+            <a class="nav-link" href="#Program_5">Program 5</a>
+            <a class="nav-link" href="#Program_6">Program 6</a>
+            <a class="nav-link" href="#Program_7">Program 7</a>
+            <a class="nav-link" href="#Program_8">Program 8</a>
+            <a class="nav-link" href="#Program_9">Program 9</a>
+            <span><a class="nav-link" href="#Program_10">Program 10</a></span>
+        </nav>
+
+        <div id="content">
+            <section class="main-section" id="Introduction">
+                <header>Introduction</header>
+                <h3>Introduction to this Documentation</h3>
+                <p>This documentation contains 10 Javascript programs, which will help you to practice Javascript and
+                    develop logic building using Javascript. I have provided the source code for Each Program which will
+                    help you in case you get stuck ,Also you can use the resource list to solve problems.It contains the
+                    tutorial link for important inbult functions and concept. It's recommended to go serially</p>
+
+                <h3>What is Javascript</h3>
+                <img src="./Images/javascript.png" alt="Javascript Logo">
+                <p>Javascript is a language use for web development along with HTML and CSS . It is responsible for a
+                    website behavior on the web. Around 97% websites across the web uses Javascript. It is one of the
+                    core technologies for website building. It is often abbrevated as JS</p>
+
+                <h3>Prerequisite</h3>
+                <ul>
+                    <li>Intermediate level of Javascript</li>
+                    <li>HTML</li>
+                </ul>
+            </section>
+            <hr>
+            <section class="main-section" id="Program_1">
+                <header>Program 1</header>
+                <ul>
+                    <li>
+                        <h3>Program Statement</h3>
+                        <p>Program to print the content of current window</p>
+                    </li>
+                    <li>
+                        <h3>Statement Explanation</h3>
+                        <p>In this program you have to write the code to take printout of the current window</p>
+                    </li>
+                    <li>
+                        <h3>Expected Output</h3>
+                        <div class="output">
+                            <p>Click the button to print this page</p>
+                            <button class="obtn" onclick="window.print()">Print</button>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Source Code</h3>
+                        <pre class="code">
+                                                      <button class="cbtn" onclick="copy('pro1')">Copy</button>
+                              <code id="pro1">
+      <span class="grey">< !</span><span  class = "blue">DOCTYPE </span><span class="cyan">html</span><span class="grey">></span>
+        <span class="grey"><</span><span class="blue">html</span><span class="grey">></span>
+          <span class="grey"><</span><span class="blue">head</span><span class="grey">></span>
+            <span class="grey"><</span><span class="blue">title</span><span class="grey">></span><span>Document</span><span class="grey"><</span><span class="blue"><span class="grey">/</span >title</span><span class="grey">></span>
+         <span class="grey"><</span><span class="blue"><span class="grey">/</span>head</span><span class="grey">></span>
+         <span class="grey"><</span><span class="blue">body</span><span class="grey">></span>
+            <span class="grey"><</span><span class="blue">p</span><span class="grey">></span><span>Click the below button to print this page</span><span class="grey"><</span><span class="blue"><span class="grey">/</span class="blue">p</span><span class="grey">></span>
+            <span class="grey"><</span><span class="blue">button </span><span class="cyan">onclick</span><span class="grey">=</span><span class="value"><span class="brown">"</span><span class="cyan">window</span><span class="brown">.</span><span class="yellow">print</span><span class="brown">()"</span><span class="grey">></span><span>Print</span><span class="grey"><</span><span class="blue"><span class="grey">/</span>button</span><span class="grey">></span>
+        <span class="grey"><</span><span class="blue"><span class="grey">/</span class="blue">body</span><span class="grey">></span>
+      <span class="grey"><</span><span class="blue"><span class="grey">/</span>html</span><span class="grey">></span>
+                              
+                              </code>
+                          </pre>
+                    </li>
+                    <li>
+                        <h3>Explanation</h3>
+                        <p>
+                    <li>
+                        In this program I have used inline onclick event handler on the button.
+                    </li>
+                    <li>
+                        The onclick listens to the click event and then calls the function given to it.
+                    </li>
+                    <li>
+                        In this click event, I have given the value of window.print() which is an inbuilt function of
+                        window object.
+                    </li>
+                    <li>
+                        This function simply prints the current page.
+                    </li>
+                    <li>Hence, on clicking the button, the event handler get's triggered and the print function is
+                        called.</li>
+                    </p>
+                    </li>
+                </ul>
+            </section>
+            <hr>
+            <section class="main-section" id="Program_2">
+                <header>Program 2</header>
+                <ul>
+                    <li>
+                        <h3>Program Statement</h3>
+                        <p>Program to find the years on which 1st January is on Sunday from 2020 to 2050</p>
+                    </li>
+                    <li>
+                        <h3>Statement Explanation</h3>
+                        <p>In this program you have to create a function which prints the list of those years from 2020
+                            to 2050 which have 1st January on Sunday</p>
+                    </li>
+                    <li>
+                        <h3>Expected Output</h3>
+                        <div class="output">
+                            1st January being Sunday in year 2023.<br>
+                            1st January being Sunday in year 2034.<br>
+                            1st January being Sunday in year 2040.<br>
+                            1st January being Sunday in year 2045.<br>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Source Code</h3>
+                        <pre class="code">
+                                                          <button onclick="copy('pro2')" class="cbtn">Copy</button>
+                              <code id="pro2">
+  <span class="blue">function</span><span class="yellow"> sunday</span><span>(){</span>
+    <span class="purple">for</span><span>(</span><span class="blue">let </span><span class="cyan">year </span><span>= </span><span class="green">2020</span><span>; </span><span class="cyan">year </span><span ><= </span><span class="green">2050</span><span >; </span><span class="cyan">year</span><span>++</span><span>)</span><span>{</span>
+      <span class="blue">let </span><span class="cyan">date </span><span>= </span><span class="blue">new </span><span class="dgreen"> Date</span><span>(</span><span class="cyan">i</span><span>,</span><span class="green">0</span><span>,</span><span class="green">1</span><span>);</span>
+      <span class="purple">if</span><span>(</span><span class="cyan">date</span><span>.</span><span class="yellow">getDay</span><span>() </span><span>== </span><span class="green">0</span><span>){</span>
+        <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="brown">`1st January being Sunday in year <span class="blue">${<span class="cyan">year</span>}</span>.`</span><span>);</span>
+      <span>}</span>
+    <span>}</span>
+  <span>}</span>
+                              
+                              </code>
+                          </pre>
+                    </li>
+                    <li>
+                        <h3>Explanation</h3>
+                        <p>
+                    <li> In this program I have created a function named sunday which prints those year which have 1st
+                        January as Sunday.</li>
+                    <li>
+                        In this function I have taken a for loop in which year variable value is calander year 2020 and
+                        terminatiing condition is when year will less then or equal to 2050.
+                    </li>
+                    <li>
+                        Inside this loop I have created a date object with setting it's year to the value of year
+                        variable, month to 0 i.e January and date to 1
+                    </li> .
+                    <li> Then I have created an if condition which checks if date object day is sunday or not, using
+                        getDay() function, If the day is sunday than this function return 0.</li>
+                    <li>If the condition turns to true,then it prints the message on console with the year</li>
+                    </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="main-section" id="Program_3">
+                <header>Program 3</header>
+                <ul>
+                    <li>
+                        <h3>Program Statement</h3>
+                        <p>Program to find Days left for Christmas</p>
+                    </li>
+                    <li>
+                        <h3>Statement Explanation</h3>
+                        <p>In this program you have to write the code to find the number of days left for 25th December
+                            i.e Christmas </p>
+                    </li>
+                    <li>
+                        <h3>Expected Output</h3>
+
+                        <div class="output">
+                            <p id="p3out"></p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Source Code</h3>
+                        <pre class="code">
+                                                             <button onclick="copy('pro3')" class="cbtn">Copy</button>
+
+                              <code id="pro3">
+  <span class="blue">function</span><span class="yellow"> christmas</span><span>(){</span>
+    <span class="blue">let </span><span class="cyan">today </span><span>= </span><span class="blue">new </span><span class="dgreen">Date</span><span>();
+    </span><span class="blue">let </span><span class="cyan">christmas</span><span>;</span>
+    <span class="blue">let </span><span class="cyan">remainedDays</span><span>;</span>
+
+    <span class="purple">if</span><span>(</span><span class="cyan">today</span><span>.</span><span class="yellow">getMonth</span><span>() </span><span>== </span><span class="green">11 </span><span>&& </span><span class="cyan">today</span><span>.</span><span class="yellow">getDate</span><span>() </span><span>> </span><span class="green">25</span><span>){</span>
+    <span class="cyan">christmas </span><span>= </span><span class="blue">new </span><span class="dgreen">Date</span><span>(</span><span class="cyan">today</span><span>.</span><span class="yellow">getFullYear</span><span>()</span><span>+</span><span class="green">1</span><span>, </span><span class="green">11</span><span>, </span><span class="green" class="green">25</span><span>);</span>
+    <span>}</span>
+    <span class="purple">else</span><span>{</span>
+    <span class="cyan">christmas </span><span>= </span><span class="blue">new </span><span class="dgreen">Date</span><span>(</span><span class="cyan">today</span><span>.</span><span class="yellow">getFullYear</span><span>()</span><span>, </span><span class="green">11</span><span>, </span><span class="green">25</span><span>);</span>
+    <span>}</span>
+
+    <span class="cyan">remainedDays </span><span>= </span><span class="cyan">christmas</span><span>.</span><span class="yellow">getTime</span><span>() </span><span>- </span><span class="cyan">today</span><span>.</span><span class="yellow">getTime</span><span>();</span>
+    <span class="cyan">remainedDays </span><span>= </span><span class="cyan">Math</span><span>.</span><span class="yellow">ceil</span><span>(</span><span class="cyan">remainedDays</span><span>/(</span><span class="green">3600</span><span>*</span><span class="green">1000</span><span>*</span><span class="green">24</span><span>));</span>
+
+    <span class="purple">if</span><span>(</span><span class="cyan">remainedDays </span><span>== </span><span class="green">1</span><span>){</span>
+        <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="brown">`</span><span class="blue">${</span><span class="cyan">remainedDays</span><span class="blue">} </span><span class="brown">day is left for christmas`</span><span>);
+    }</span>
+    <span class="purple">else</span>{</span>
+      <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="brown">`</span><span class="blue">${</span><span class="cyan">remainedDays</span><span class="blue">} </span><span class="brown">days are left for christmas`</span><span>);
+     }
+  }</span> 
+
+  <span class="yellow">christmas</span><span>();</span>
+</code>
+                          </pre>
+                    </li>
+                    <li>
+                        <h3>Explanation</h3>
+                        <p>
+                    <li>In christmas function, first I have created three variables i.e christmas, remainedDays and
+                        today. Variabe today has the value of date Object</li>
+                    <li>Then, Inside if condition I have checked whether present day is after or before 25th december
+                        using getDay() and getMonth() functions</li>
+                    <li>If the condition turns true then the value of christmas variable is eqauls to the date 25th
+                        december of next year</li>
+                    <li>Else the value of christmas is equals to the Date 25th December of current year.</li>
+                    <li>After That, I have find the time left for christmas using getTime() function between today's
+                        date and christmas date in milliseconds and then converted it on number of days</li>
+                    <li>In next Step, Using if condition I have just displayed the Number of days left for christmas.
+                        Here, if Statement is used just for proper grammer.(One can skip if step and directly print in
+                        the console.)</li>
+                    </p>
+                    </li>
+                </ul>
+            </section>
+            <section class="main-section" id="Program_4">
+                <header>Program 4</header>
+                <ul>
+                    <li>
+                        <h3>Program Statement</h3>
+                        <p>Program to find the extension of any file</p>
+                    </li>
+                    <li>
+                        <h3>Statement Explanation</h3>
+                        <p>In this program you have to write a function which takes a file name as an argument and
+                            returns the extension of that file as output</p>
+                    </li>
+                    <li>
+                        <h3>Expected Output</h3>
+                        <div class="output">
+                            <p>Input argument: Index.js</p>
+                            <p>Output: js</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Source Code</h3>
+                        <pre class="code">
+                                                            <button onclick="copy('pro4')" class="cbtn">Copy</button>
+
+                              <code id="pro4">
+  <span class="blue">function </span><span class="yellow">extension</span><span>(</span><span class="cyan">fileName</span><span>){</span>
+     <span class="blue">let </span><span class="cyan">num1 </span><span>= </span><span class="cyan">fileName</span><span>.</span><span class="yellow">indexOf</span><span>(</span><span class="brown">'.'</span><span>)</span><span>+</span><span class="green">1</span><span>;</span>
+     <span class="blue">let </span><span class="cyan">num2 </span><span>= </span><span class="cyan">fileName</span><span>.</span><span class="cyan">length</span><span>;</span>
+
+     <span class="blue">let </span><span class="cyan">exten </span><span>= </span><span class="cyan">fileName</span><span>.</span><span class="yellow">slice</span><span>(</span><span class="cyan">num1</span><span>,</span><span class="cyan">num2</span><span>);</span>
+     <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="cyan">exten</span><span>);</span>
+  <span>}</span>
+
+  <span class="yellow">extension</span><span >(</span><span class="brown">"Index.js"</span><span>);</span>
+                              
+                              </code>
+                          </pre>
+                    </li>
+                    <li>
+                        <h3>Explanation</h3>
+                    <li>For this problem, I have created the extension function which takes an argument named fileName
+                    </li>
+                    <li>Inside this function, there is an variable num1 which is equal to the index number of first
+                        character of extension name.</li>
+                    <li>There is another variable too, named num2 which is equals to length of the the string fileName
+                    </li>
+                    <li>Variables exten is equal to the sliced string from fileName. The argument of slice func is
+                        equals to num1 and num2 so I get the extension name.(Check resource section of this program to
+                        know about inbuilt functions used in this program.)</li>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="main-section" id="Program_5">
+                <header>Program 5</header>
+                <ul>
+                    <li>
+                        <h3>Program Statement</h3>
+                        <p>In this program you have to write a function to replace every character of a given string
+                            with the character following it in the alphabets order</p>
+                    </li>
+                    <li>
+                        <h3>Statement Explanation & Expected Input/Output</h3>
+                        <div class="output">
+                            <p>Input: mountain</p>
+                            <p>Output: npvoubjo</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <h3>Source Code</h3>
+                        <pre class="code">
+                                                            <button onclick="copy('pro5')" class="cbtn">Copy</button>
+                                 
+                              <code id="pro5">
+  <span class="blue">function </span><span class="yellow">alphabet</span><span>(</span><span class="cyan">string</span><span>){</span>
+      <span class="blue">let </span><span class="cyan">newString </span><span>= </span><span>[];</span>
+      <span class="purple">for </span><span>(</span><span class="blue">let </span><span class="cyan">i </span><span>= </span><span class="green">0</span><span>; </span><span class="cyan">i </span><span>< </span><span class="cyan">string</span><span>.</span><span class="cyan">length</span><span>; </span><span class="cyan">i</span><span>++){</span>
+          <span class="blue">let </span><span class="cyan">code </span><span>= </span><span class="cyan">string</span><span>.</span><span class="yellow">charCodeAt</span><span>(</span><span>i</span><span>);</span>
+          <span class="blue">let </span><span class="cyan">character </span><span>= </span><span class="dgreen">String</span><span>.</span><span class="yellow">fromCharCode</span><span>(</span><span class="cyan">code</span><span>+</span><span class="green">1</span><span>)</span><span>;</span> 
+          <span class="cyan">newString</span><span>.</span><span class="yellow">push</span><span>(</span><span class="cyan">character</span><span>);</span>
+      <span>}</span>
+
+     <span class="cyan">newString </span><span>= </span><span class="cyan">newString</span><span>.</span><span class="yellow">join</span><span>(</span><span class="brown">""</span><span>);</span>
+     <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="cyan">newString</span><span>);</span>    
+  <span>}</span>
+
+  <span class="yellow">alphabet</span><span>(</span><span class="brown">"mountain"</span><span>);</span>
+                              </code>
+                          </pre>
+                    </li>
+                    <li>
+                        <h3>Explanation</h3>
+                    <li>The alphabet function takes a string as an argument</li>
+                    <li>Inside this function, there is an empty array named newString</li>
+                    <li>After that, I have a for loop , where i is equals to 0 and the terminating condition is when i
+                        is less than length of string</li>
+                    <li>Insids the loop: In code variable I have stored the unicode of the respective charcter using
+                        charCodeAt function. (know more about unicode and other inbuilt functions from resource list)
+                    </li>
+                    <li>In next step, inside character variable I have obtained the next alphabet of respective
+                        string[i] alphabet using fromCharCode function which returns the character whose unicode is
+                        given.</li>
+                    <li>After that, I have added that character to the end of newString array using push function.</li>
+                    <li>Outside the loop, I have join all the elements of newString array and displayed it as output.
+                    </li>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="main-section" id="Program_6">
+                <header>Program 6</header>
+                <ul>
+                    <li>
+                        <h3>Program Statement</h3>
+                        <p>Program to find whether a given matrix is a lower triangular matrix or not</p>
+                    </li>
+                    <li>
+                        <h3>Statement Explanation</h3>
+                        <p>A Matrix is a representation of numbers in rows and columns enclosed within a brackets. Lower
+                            triangular matrix is a 3 by 3 matrix whose all elements above leading diagnol are 0. <a
+                                href=""> Know more about lower triangular Matrix.</a></p>
+                    </li>
+                    <li>
+                        <h3>Expected Input/Output</h3>
+                        <div class="output">
+                            <p>Input Argument: [[1,0,0],[4,22,0],[6,5,1]]</p>
+                            <p>Output: The given matrix is a lower triangular matrix</p>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Source Code</h3>
+                        <pre class="code">
+                                                         <button onclick="copy('pro6')" class="cbtn">Copy</button>
+
+                              <code id="pro6">
+  <span class="blue">function </span><span class="yellow">matrix</span><span>(</span><span class="cyan">matrixArr</span><span>){</span>
+      <span class="purple">if</span><span>(</span><span class="cyan">matrixArr</span><span>[</span><span class="green">0</span><span>][</span><span class="green">1</span><span>] </span><span>== </span><span class="green">0 </span><span>&& </span><span class="cyan">matrixArr</span><span>[</span><span class="green">0</span><span>][</span><span class="green">2</span><span>] </span><span>== </span><span class="green">0 </span><span>&&
+      </span><span class="cyan">matrixArr</span><span>[</span><span class="green">1</span><span>][</span><span class="green">2</span><span>] </span><span>== </span><span class="green">0 </span><span>){</span>
+
+          <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="brown">"The given matrix is a lower triangular 
+          matrix"</span><span>);</span>
+     <span>}</span>
+     <span class="purple">else</span><span>{</span>
+         <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="brown">"The given matrix is not a lower triangular
+          matrix"</span><span>);</span>
+     <span>}</span>
+  <span>}</span>
+
+  <span class="yellow">matrix</span><span>([[</span><span class="green">1</span><span>,</span><span class="green">0</span><span>,</span><span class="green">0</span><span>],[</span><span class="green">4</span><span>,</span><span class="green">22</span><span>,</span><span class="green">0</span><span>],[</span><span class="green">6</span><span>,</span><span class="green">5</span><span>,</span><span class="green">1</span><span>]]);</span>                              
+</code>
+                          </pre>
+                    </li>
+                    <li>
+                        <h3>Explanation</h3>
+                    <li>In the Matrix function, there is an argument called matrixArr which is a multi-dimensional array
+                        of 3 by 3 matrix element</li>
+                    <li>Inside this function, In an if condition I checked whether the element of specific index's are
+                        zero or not. Those index's are (0,1) , (0,2) ,(1,2)</li>
+                    <li>If they are zero then the matrix is a lower triangular matrix else it is not a lower triangular
+                        matrix.</li>
+                    </li>
+                </ul>
+            </section>
+
+
+            <section class="main-section" id="Program_7">
+                <header>Program 7</header>
+                <ul>
+                    <li>
+                        <h3>Program Statement</h3>
+                        <p>To determine whether a given year is leap year or not</p>
+                    </li>
+                    <li>
+                        <h3>Statement Explanation</h3>
+                        <p>In this program you have to take a year as an argument and return the Statement whether the
+                            passed year is leap year or not. <a href="">Know the conditions to determine whether a year
+                                is a leap year or not</a></p>
+                    </li>
+                    <li>
+                        <h3>Expected Input/Output</h3>
+                        <div class="output">
+                            <p>Input: 2020</p>
+                            <p>2020 : Leap year</p>
+                            <p>Input: 2021</p>
+                            <p>2020 : Not a Leap year</p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <h3>Source Code</h3>
+                        <pre class="code">
+                                                            <button onclick="copy('pro8')" class="cbtn">Copy</button>
+
+                              <code id="pro7">
+  <span class="blue">function </span><span class="yellow">leapYear</span><span>(</span><span class="cyan">year</span><span>){</span>
+     <span class="purple">if</span><span>(</span><span class="cyan">year</span><span>%</span><span class="green">4 </span><span>== </span><span class="green">0 </span><span>|| </span><span class="cyan">year</span><span>%</span><span class="green">100 </span><span!>== </span><span class="green">0 </span><span>&& </span>
+     <span class="cyan">year</span><span>%</span><span class="green">400 </span><span>== </span><span class="green">0</span><span>){</span>
+        <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="brown">`</span><span class="blue">${</span><span class="cyan">year</span><span class="blue">} </span><span class="brown">is a leap year`</span><span>);</span>
+    <span>}</span>
+    <span class="purple">else</span><span>{</span>
+        <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="brown">`</span><span class="blue">${</span><span class="cyan">year</span><span class="blue">} </span><span class="brown">is not a leap year`</span><span>);</span>
+    <span>}</span>
+  <span>}</span>
+
+  <span class="yellow">leapYear</span><span>(</span><span class="green">2020</span><span>);</span>
+                              </code>
+                          </pre>
+                    </li>
+                    <li>
+                        <h3>Explanation</h3>
+                    <li>In the leapYear function, I have a parameter named year, which will be the number of year</li>
+                    <li>Inside this function, in an if condition I have checked whether the year is evenly divisible by
+                        4 OR it is evenly divisible by 100 as well as 400</li>
+                    <li>If the year satisfies any of the two conditions then it is a leapYear</li>
+                    <li>Else, it is not a leap year</li>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="main-section" id="Program_8">
+                <header>Program 8</header>
+                <ul>
+                    <li>
+                        <h3>Program Statement</h3>
+                        <p>Program to convert a given temperature from celsius to Farenheit</p>
+                    </li>
+                    <li>
+                        <h3>Statement Explanation</h3>
+                        <p>In this program you have to write the code to take a temperature in celsius as an argument
+                            and return that temperature's value in Farenheit</p>
+                    </li>
+                    <li>
+                        <h3>Expected Input/Output</h3>
+                        <div class="output">
+                            <p>Temperature in Celsius : 40</p>
+                            <p>Temperature in Farenheit : 40</p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <h3>Source Code</h3>
+                        <pre class="code">
+                                                            <button onclick="copy('pro9')" class="cbtn">Copy</button>
+
+                              <code id="pro8">
+  <span class="blue">function </span><span class="yellow">tempCeltoFar</span><span>(</span><span class="cyan">temp</span><span>){</span>
+     <span class="blue">let </span><span class="cyan">farenTemp </span><span>= </span><span>(</span><span class="cyan">temp</span><span>*</span><span class="green">9</span><span>/</span><span class="green">5</span><span>)</span><span>+</span><span class="green">32</span><span>;</span>
+     <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="brown">`The value of </span><span class="blue">${</span><span class="cyan">temp</span><span class="blue">} </span><span class="brown">celcius in farhenheit 
+     is </span><span class="blue">${</span><span class="cyan">farenTemp</span><span class="blue">}</span><span>`</span><span>);</span>
+  <span>}</span>
+
+  <span class="yellow">tempCeltoFar</span><span>(</span><span class="green">30</span><span>);</span>
+                              </code>
+                          </pre>
+                    </li>
+                    <li>
+                        <h3>Explanation</h3>
+                    <li>In the tempCeltoFar function, there is an temp parameter which is the temperature in celcius.
+                    </li>
+                    <li>In this function, I have used the formula to convert the celcius unit to Farenheit i.e
+                        temperature in celcius = (temperature*9/5)+32 Farenheit</li>
+                    <li>I have stored the converted temperature in farenTemp variable and print it through console.log()
+                        function</li>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="main-section" id="Program_9">
+                <header>Program 9</header>
+                <ul>
+                    <li>
+                        <h3>Program Statement</h3>
+                        <p>Program to reverse a given number</p>
+                    </li>
+                    <li>
+                        <h3>Statement Explanation</h3>
+                        <p>In this program you have to write the function to reverse a given number.</p>
+                    </li>
+                    <li>
+                        <h3>Expected Output</h3>
+                        <div class="output">
+                            <p>Input Argument: 12345
+                            <p>Output: 54321</p>
+                            </p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <h3>Source Code</h3>
+
+                        <pre class="code">
+                                                        <button onclick = "copy('pro10')">Copy</button>
+                              <code  id="pro9">
+   <span class="blue">function </span><span class="yellow">reverseNum</span><span>(</span><span class="cyan">num</span><span>){</span>
+      <span class="cyan">num </span><span>= </span><span class="cyan">num</span><span>.</span><span class="yellow">toString</span><span>();</span>
+      <span class="cyan">num </span><span>= </span><span class="cyan">num</span><span>.</span><span class="yellow">split</span><span>(</span><span class="brown">""</span><span>).</span><span class="yellow">reverse</span><span>().</span><span class="yellow">join</span><span>(</span><span class="brown">""</span><span>);</span>
+      <span class="cyan">num </span><span>= <span class="yellow">parseInt</span><span>(</span><span class="cyan">num</span><span>);</span>
+      <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="cyan">num</span><span>);</span>
+  <span>}</span>
+
+  <span class="yellow">reverseNum</span><span>(</span><span class="green">12345</span><span>);</span>
+                              </code>
+                          </pre>
+
+                    </li>
+                    <li>
+                        <h3>Explanation</h3>
+                    <li>I have created a function named reverseNum with parameter num. Here, num is the number to be
+                        reverse</li>
+                    <li>In this function, first I have converted the number in an string using toString inbuilt function
+                    </li>
+                    <li>After converting the number into string, I have splitted each character of the string using
+                        split() function and converted that string to an array of charcters.Then I have used the reverse
+                        function to reversed the elements of array and then again converted it in a single string using
+                        join function </li>
+                    <li>After reversing the string number I have again converted it in a number using parseInt inbuilt
+                        function.</li>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="main-section" id="Program_10">
+                <header>Program 10</header>
+                <ul>
+                    <li>
+                        <h3>Program Statement</h3>
+                        <p>Program to break url parts and put the url words in an array</p>
+                    </li>
+                    <li>
+                        <h3>Statement Explanation</h3>
+                        <p>In this program you have to take an url as an argument and return an array which contains
+                            only the words of url and avoids character like ( : / / .)</p>
+                    </li>
+                    <li>
+                        <h3>Expected Input/Output</h3>
+                        <div class="output">
+                            <p>Input: http://AlfiyaSiddique.github.io</p>
+                            <p>Output: ["http","AlfiyaSiddique","github","io"]</p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <h3>Source Code</h3>
+                        <pre class="code">
+                                                            <button onclick="copy('pro7')" class="cbtn">Copy</button>
+        
+                                      <code id="pro10">
+  <span  class="blue">function </span><span class="yellow">url</span><span>(</span><span class="cyan">link</span><span>)</span><span>{</span>
+        <span class="cyan">link </span><span>= </span><span class="cyan">link</span><span>.</span><span class="yellow">split</span><span>(</span><span class="brown">""</span><span>);</span>    
+            
+        <span class="purple">for</span><span>(</span><span class="blue">let </span><span class="cyan">i </span><span>= </span><span class="green">0</span><span>; </span><span class="cyan">i</span><span><</span><span class="cyan">link</span><span>.</span><span class="cyan">length</span><span>; </span><span class="cyan">i</span><span>++){</span>
+          <span class="purple">if</span><span>(</span><span class="cyan">link</span><span>[</span><span class="cyan">i</span><span>] </span><span>== </span><span class="brown">'.' </span><span>|| </span><span class="cyan">link</span><span>[</span><span class="cyan">i</span><span>] </span><span>== </span><span class="brown">'/' </span><span>|| </span>
+          <span class="cyan">link</span><span>[</span><span class="cyan">i</span><span>] </span><span>== </span><span class="brown">':' </span><span>){</span>
+             <span class="cyan">link</span><span>.</span><span class="yellow">splice</span><span>(</span><span class="cyan">i</span><span>,</span><span class="green">1</span><span>,</span><span class="brown">" "</span><span>);</span>
+             <span class="cyan">i</span><span>--;</span>
+          <span>}</span>
+        <span>}</span> 
+            
+        <span class="cyan">link </span><span>= </span><span class="cyan">link</span><span>.</span><span class="yellow">join</span><span>(</span><span class="brown">" "</span><span>)</span><span>.</span><span class="yellow">split</span><span>(</span><span class="brown">"  "</span><span>;</span>
+        
+        <span class="purple">for</span><span>(</span><span class="blue">let </span><span class="cyan">i </span><span>= </span><span class="green">0</span><span>; </span><span class="cyan">i </span><span>< </span><span class="cyan">link</span><span>.</span><span class="cyan">length</span><span>; </span><span class="cyan">i</span><span>++){</span>
+                  <span class="purple">if</span><span>(</span><span class="cyan">link</span><span>[</span><span class="cyan">i</span><span>]</span><span> == </span><span class="brown">''</span><span>){</span>
+                      <span class="cyan">link</span><span>.</span><span class="yellow">splice</span><span>(</span><span class="cyan">i</span><span>,</span><span class="green">1</span><span>);</span>
+                      <span class="cyan">i</span><span>--;</span>
+                  <span>}</span>
+              <span>}</span> 
+        <span class="cyan">console</span><span>.</span><span class="yellow">log</span><span>(</span><span class="cyan">link</span><span>);</span>
+    <span>}</span>
+        
+    <span class="yellow">url</span><span>(</span><span class="brown">"http://AlfiyaSiddique.github.io"</span><span>);</span>
+           </code>
+                                  </pre>
+                    </li>
+                    <li>
+                        <h3>Explanation</h3>
+                    <li>In the url function above, I have an argument link . This is the url which will be passed by
+                        user</li>
+                    <li>Inside this function firts I have converted the string to an array using split function and
+                        splitted each and every character of the string</li>
+                    <li>After that inside a for loop , I checked whether any of the element is dot(.), forward-slash (/)
+                        or colon (:)</li>
+                    <li>If the element is equal to any of the character specified in the if condition then that element
+                        will be replaced by a space(' '), using splice function</li>
+                    <li>After that I have joined the entire array in single string using join function.</li>
+                    <li>And then, Again splitted it by using split function where space(" ") is the separator</li>
+                    <li>Then, inside a for loop I traversed each element and check if any space is present as elementin
+                        the array. If it is present, then it will be removed</li>
+                    <li>At this part, I will get our desired array</li>
+                    </li>
+                </ul>
+            </section>
+
+            <footer>
+                <header>
+                    <h2>Documentation Detail</h2>
+                </header>
+                <p>This web page is part of a freecodecamp project</p>
+                <p>But this web page is completely genuine.Wriiten and designed by Alfiya Siddique</p>
+
+            </footer>
+            </section>
+        </div>
+
+        <div id="reference" class="display">
+            <i class="fa fa-times icons display2"></i>
+
+            <header>Resource for Programs</header>
+            <details class="ref-link">
+                <summary> Program 1</summary>
+                <a href="https://www.w3schools.com/jsref/event_onclick.asp" target="_blank">onclick</a>
+                <a href="https://www.w3schools.com/jsref/met_win_print.asp" target="_blank">window.printf()</a>
+            </details>
+
+            <details class="ref-link">
+                <summary>Program 2</summary>
+                <a href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank">For loop</a>
+                <a href="https://www.w3schools.com/js/js_if_else.asp" target="_blank">If Statement</a>
+                <a href="https://www.w3schools.com/js/js_dates.asp" target="_blank">Date Object</a>
+            </details>
+            <details class="ref-link">
+                <summary>Program 3</summary>
+                <a href="https://www.w3schools.com/jsref/jsref_if.asp" target="_blank">If else Statement</a>
+                <a href="https://www.w3schools.com/jsref/jsref_gettime.asp" target="_blank">getTime()</a>
+            </details>
+            <details class="ref-link">
+                <summary>Program 4</summary>
+                <a href="https://www.w3schools.com/jsref/jsref_indexof.asp" target="_blank">indexOf()</a>
+                <a href="https://www.w3schools.com/jsref/jsref_length_string.asp" target="_blank">string.length</a>
+                <a href="https://www.w3schools.com/jsref/jsref_slice_array.asp" target="_blank">slice()</a>
+            </details>
+            <details class="ref-link">
+                <summary>Program 5</summary>
+                <a href="https://www.w3schools.com/jsref/jsref_charcodeat.asp" target="_blank">.charCodeAt()</a>
+                <a href="https://www.w3schools.com/jsref/jsref_fromcharcode.asp" target="_blank">.fromCharCode()</a>
+                <a href="https://www.w3schools.com/jsref/jsref_push.asp" target="_blank">.push()</a>
+            </details>
+            <details class="ref-link">
+                <summary>Program 6</summary>
+                <a href="https://www.w3schools.com/js/js_arrays.asp" target="_blank">Arrays</a>
+            </details>
+            <details class="ref-link">
+                <summary>Program 7</summary>
+                <a href="https://www.w3schools.com/js/js_operators.asp" target="_blank">Mod Operator</a>
+            </details>
+            <details class="ref-link">
+                <summary>Program 8</summary>
+                <a href="https://www.rapidtables.com/convert/temperature/celsius-to-fahrenheit.html"
+                    target="_blank">Conversion Formula</a>
+            </details>
+            <details class="ref-link">
+                <summary>Program 9</summary>
+                <a href="https://www.w3schools.com/jsref/jsref_tostring_string.asp" target="_blank">.toString()</a>
+                <a href="https://www.w3schools.com/jsref/jsref_split.asp" target="_blank">.split()</a>
+                <a href="https://www.w3schools.com/jsref/jsref_reverse.asp" target="_blank">.reverse()</a>
+                <a href="https://www.w3schools.com/jsref/jsref_join.asp" target="_blank">.join()</a>
+                <a href="https://www.w3schools.com/jsref/jsref_parseint.asp" target="_blank">parseInt()</a>
+            </details>
+            <details class="ref-link">
+                <summary>Program 10</summary>
+                <a href="https://www.w3schools.com/jsref/jsref_splice.asp" target="_blank">.splice()</a>
+            </details>
+        </div>
+    </main>
+    <script src="/Javascript/Program.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
